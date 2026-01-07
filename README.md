@@ -1,77 +1,182 @@
 # Hi, I'm Mikki 👋
 
-I build **autonomous systems**, **AI agent platforms**, and **high-performance infrastructure**. My work focuses on making complex distributed systems reliable, fast, and declarative.
+I build **production-grade distributed systems** at the intersection of AI orchestration, enterprise architecture, and high-performance computing.
 
 ## 🎯 Current Focus
 
-### **AI Agent Orchestration**
-Building production AI systems with Elixir and Rust:
-- Autonomous agent platforms with PostgreSQL-backed DAG workflows
-- LLM integrations (OpenAI, Anthropic, Google, local models)
-- Code analysis and intelligent tooling
-- Emergency AI systems with Bumblebee models
+### **Singularity Platform** - AI-First Process Orchestration
+Building a distributed AI platform combining BPMN, multi-agent systems, and secure execution:
 
-### **Infrastructure & DevOps**
-Making deployment simple and declarative:
-- Universal NixOS cloud images (works on any provider)
-- High-performance Nix binary cache systems
-- GitHub Actions for Nix workflows
-- SOPS-encrypted secret management
+**Architecture:**
+- **Erlang/OTP** for fault-tolerant distributed services (12,000+ files monorepo)
+- **Custom Bazel rules** for AI/ML workloads (swarm orchestration, federated learning, AGI analysis)
+- **Multi-language**: TypeScript (NestJS), Elixir, Rust, Gleam, Python
+- **Micro-frontends** with Module Federation (Webpack 5)
+- **Dynamic sandboxing**: E2B Cloud, Firecracker MicroVMs, Modal GPU containers
 
-### **Enterprise Systems**
-Architecting microservices at scale:
-- Java Spring Boot microservices for telecom/hosting
-- Billing engines and payment processing
-- Service desk and ITSM platforms
-- Real-time data pipelines
+**Services (55+ microservices):**
+- Workflow Orchestration (BPMN integration)
+- Overwatch Command Center (AI agent supervision)
+- Guardian Kubernetes Protection (security)
+- Knowledge Graph Service (semantic search)
+- Edge Inference Orchestration (distributed ML)
+- MLflow Model Registry (MLOps)
+- Terminal Session Gateway (secure execution)
+- Certificate Authority (PKI infrastructure)
 
-## 🛠️ Tech Stack
+**Integration:**
+- LangChain, CrewAI, AutoGen (AI frameworks)
+- CopilotKit (AI copilot runtime)
+- Anthropic SDK (Claude API)
+- Microsoft Teams A2A (enterprise collaboration)
 
-**Backend:** Elixir, Rust, Java, Go, Python
-**Frontend:** TypeScript, React, Svelte
-**Infrastructure:** NixOS, Kubernetes, PostgreSQL, NATS
-**AI/ML:** Bumblebee, Tree-sitter, LLM APIs
-**DevOps:** Packer, Terraform, GitHub Actions, Fly.io
+**Build System:**
+- Bazel monorepo (enterprise-grade)
+- Nix flakes (reproducible environments)
+- pnpm workspaces (JavaScript)
+- Mix (Elixir)
 
-## 🚀 What I Build
+### **FlakeCache** - High-Performance Nix Binary Cache
+Production infrastructure for Nix binary caching:
+- Elixir backend with S3 storage
+- Rust CLI for cache operations
+- FastCDC content-defined chunking
+- Kubernetes + Fly.io deployment
 
-**Distributed Systems**
-- AI agent orchestration platforms
-- DAG-based workflow engines
-- High-performance binary caches
+### **Enterprise Systems** - Microservices at Scale
+Java Spring Boot ecosystem for telecom/hosting:
+- 30+ microservices (billing, invoicing, ITSM, CMDB)
+- RESTful APIs with React frontends
+- Liferay Portal integration
 - Real-time billing pipelines
 
-**Developer Tools**
-- Language compilers (Gleam → Nix)
-- Code analysis engines
-- Autonomous coding agents
-- CI/CD automation
+### **NixOS Cloud** - Universal Infrastructure
+Making declarative infrastructure accessible:
+- Universal NixOS images (14+ cloud providers)
+- SOPS encrypted secrets
+- GitHub Actions automation
+- Terraform modules
 
-**Cloud Infrastructure**
-- Universal deployment images
-- Secret management systems
-- DNS automation
-- Container orchestration
+## 🛠️ Technical Expertise
+
+**Languages:**
+- **Systems**: Rust, Go, Elixir, Gleam
+- **Enterprise**: Java, TypeScript, Python
+- **Scripting**: Shell, Perl, Nix
+
+**Distributed Systems:**
+- Erlang/OTP supervision trees
+- Kubernetes orchestration
+- NATS messaging
+- PostgreSQL (TimescaleDB, pgvector)
+
+**AI/ML:**
+- Multi-agent orchestration (swarm intelligence)
+- LLM integration (OpenAI, Anthropic, Google)
+- Federated learning infrastructure
+- Tree-sitter parsing
+- Bumblebee (Elixir ML)
+
+**Build & Infrastructure:**
+- Bazel (custom rules for AI/ML)
+- Nix (reproducible builds)
+- Module Federation (micro-frontends)
+- GitHub Actions (CI/CD)
+
+**Frontend:**
+- React (CopilotKit, Headless UI)
+- NestJS backends
+- Module Federation
+- Real-time UIs
+
+## 🏗️ Architecture Patterns
+
+**Monorepo Management:**
+- Bazel for polyglot builds
+- pnpm workspaces for JavaScript
+- Custom build rules for AI workloads
+- Selective test execution
+
+**Microservices:**
+- Service mesh patterns
+- Event-driven architectures
+- CQRS/Event Sourcing
+- Saga orchestration
+
+**Security:**
+- Dynamic code sandboxing (Firecracker, E2B)
+- Certificate authority infrastructure
+- Kubernetes security policies
+- Encrypted secret management (SOPS)
 
 ## 💡 Philosophy
 
-**Declarative Everything** - Infrastructure, config, and workflows should be reproducible
+**Production-First** - Build systems that scale to real workloads
 
-**Performance Matters** - Rust for speed, Elixir for concurrency, Nix for reproducibility
+**Polyglot When Needed** - Right tool for the job (Erlang for distribution, Rust for speed, Nix for reproducibility)
 
-**Full Ownership** - Control your infrastructure, data, and AI models
+**Automation Everything** - From builds to deployments to testing
 
-**Open Ecosystems** - Build in public, contribute back
+**Type Safety** - Static typing where possible (TypeScript, Rust, Gleam, Elixir specs)
 
-## 🌟 Notable Work
+**Open Source** - Contributing back to the ecosystem
 
-- **Singularity Platform** - Complete AI agent orchestration stack (Elixir/Rust)
-- **FlakeCache** - High-performance Nix binary cache with S3 backend
-- **NixOS Cloud Image** - Universal cloud deployment for 14+ providers
-- **Central Cloud** - Enterprise billing microservices ecosystem (Java)
-- **Glistix** - Gleam compiler fork with Nix backend
-- **Claude Code Tools** - Orchestration layers for autonomous coding
+## 🌟 Notable Projects
+
+**Singularity Platform**
+- 55+ microservices orchestrated with Erlang/OTP
+- Custom Bazel rules for AI/ML workloads
+- BPMN-based workflow engine
+- Multi-agent swarm intelligence
+- Production-grade sandboxing
+
+**FlakeCache**
+- High-performance Nix binary cache
+- S3-backed storage with intelligent chunking
+- Kubernetes deployment automation
+- CLI tools in Rust
+
+**Language Tools**
+- Glistix: Gleam → Nix compiler fork
+- Tree-sitter grammars (Mermaid.js)
+- Code analysis engines
+
+**Infrastructure**
+- NixOS cloud images (universal deployment)
+- Kubernetes security (Guardian protection)
+- CI/CD automation (GitHub Actions)
+
+**Enterprise**
+- Complete billing platform (30+ services)
+- cPanel/PowerDNS integration
+- Real-time payment processing
+
+## 🎓 Key Strengths
+
+**Distributed Systems:**
+- Erlang/OTP fault tolerance
+- Kubernetes orchestration
+- Service mesh architecture
+- Event-driven systems
+
+**AI/ML Infrastructure:**
+- Multi-agent orchestration
+- LLM integration patterns
+- Federated learning
+- Edge inference
+
+**Enterprise Architecture:**
+- BPMN process orchestration
+- Microservices design
+- API gateway patterns
+- Message queues (NATS, RabbitMQ)
+
+**Developer Experience:**
+- Custom build tooling (Bazel macros)
+- Reproducible environments (Nix)
+- Type-safe code generation
+- Comprehensive testing
 
 ---
 
-*Building autonomous systems that scale.* 🚀
+*Building distributed AI systems that scale to production.* 🚀
