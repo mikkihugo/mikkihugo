@@ -148,11 +148,15 @@ Making declarative infrastructure accessible:
 - Gets better over time through fine-tuning
 
 **VectorGit**
-- GitHub alternative with geographic sovereignty
-- NATS-based global replication (not HTTP)
-- Vector-based version control for semantic code
-- Regional isolation: US, EU, APAC clusters
-- Distributed conflict resolution
+- GitHub alternative replacing Git's file storage with vector embeddings
+- Stores code AS vectors in pgvector (not text files)
+- AST parsing + semantic feature extraction (1536-dimensional embeddings)
+- Content addressing via SHA-256 → vector mapping (70% storage reduction)
+- Sub-100ms vector lookups (pgvector + Qdrant + Redis 3-layer cache)
+- NATS-based geographic replication for data sovereignty (not HTTP)
+- Regional isolation: US, EU, APAC clusters with eventual consistency
+- Gitea integration maintaining Git API compatibility
+- Semantic deduplication and similarity-based conflict resolution
 
 **Central Brain**
 - Pattern discovery across edge CodeSage instances
