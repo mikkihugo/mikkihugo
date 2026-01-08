@@ -28,6 +28,8 @@ Building a distributed AI platform combining BPMN, multi-agent systems, and secu
 - **CodeSage**: Edge-deployed LLM that refines code with ML Linter feedback loop
 - **Central Brain**: Pattern discovery across distributed edge instances
 - **VectorGit**: GitHub alternative with NATS-based geographic replication
+- **Guardian**: Cross-instance rollback coordination for autonomous AI safety
+- **Genesis**: Isolated sandbox for safe experimentation with auto-rollback
 
 **Integration:**
 - LangChain, CrewAI, AutoGen (AI frameworks)
@@ -159,6 +161,16 @@ Making declarative infrastructure accessible:
 - Confidence tracking and effectiveness metrics
 - Global pattern synchronization
 
+**Guardian + Genesis**
+- Cross-instance rollback coordination for autonomous AI
+- Tracks code changes across all instances with safety profiles
+- Auto-approves safe changes (>0.90 semantic similarity)
+- Auto-rollbacks on threshold breach (<0.90 success rate)
+- Genesis sandbox: 3-layer isolation (filesystem, database, process)
+- Learned rollback strategies from historical successes
+- pgvector semantic safety analysis
+- NATS-based cross-instance coordination
+
 **FlakeCache**
 - High-performance Nix binary cache
 - S3-backed storage with intelligent chunking
@@ -191,7 +203,10 @@ Making declarative infrastructure accessible:
 **AI/ML Infrastructure:**
 - Multi-agent orchestration
 - Self-improving AI systems (CodeSage + Central Brain)
+- Autonomous AI safety (Guardian + Genesis)
 - Edge-deployed LLM refinement
+- Cross-instance rollback coordination
+- Semantic safety analysis (pgvector)
 - LLM integration patterns
 - Federated learning
 - Edge inference
