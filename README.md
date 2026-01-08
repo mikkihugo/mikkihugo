@@ -17,12 +17,17 @@ Building a distributed AI platform combining BPMN, multi-agent systems, and secu
 **Services (55+ microservices):**
 - Workflow Orchestration (BPMN integration)
 - Overwatch Command Center (AI agent supervision)
-- Guardian Kubernetes Protection (security)
+- Guardian Kubernetes Protection (ML-assisted emergency response)
 - Knowledge Graph Service (semantic search)
 - Edge Inference Orchestration (distributed ML)
 - MLflow Model Registry (MLOps)
 - Terminal Session Gateway (secure execution)
 - Certificate Authority (PKI infrastructure)
+
+**Self-Improving AI Systems:**
+- **CodeSage**: Edge-deployed LLM that refines code with ML Linter feedback loop
+- **Central Brain**: Pattern discovery across distributed edge instances
+- **VectorGit**: GitHub alternative with NATS-based geographic replication
 
 **Integration:**
 - LangChain, CrewAI, AutoGen (AI frameworks)
@@ -73,7 +78,10 @@ Making declarative infrastructure accessible:
 **AI/ML:**
 - Multi-agent orchestration (swarm intelligence)
 - LLM integration (OpenAI, Anthropic, Google)
+- Edge-deployed AI systems (CodeSage)
+- Self-improving feedback loops (ML Linter)
 - Federated learning infrastructure
+- Pattern discovery and synchronization (Central Brain)
 - Tree-sitter parsing
 - Bumblebee (Elixir ML)
 
@@ -126,9 +134,30 @@ Making declarative infrastructure accessible:
 **Singularity Platform**
 - 55+ microservices orchestrated with Erlang/OTP
 - Custom Bazel rules for AI/ML workloads
-- BPMN-based workflow engine
+- BPMN-based workflow engine (custom-built, not Temporal)
 - Multi-agent swarm intelligence
 - Production-grade sandboxing
+
+**CodeSage + ML Linter**
+- Self-improving AI coding system
+- Edge-deployed LLM refines code from larger models
+- ML Linter provides continuous feedback loop
+- Pattern learning specific to codebase standards
+- Gets better over time through fine-tuning
+
+**VectorGit**
+- GitHub alternative with geographic sovereignty
+- NATS-based global replication (not HTTP)
+- Vector-based version control for semantic code
+- Regional isolation: US, EU, APAC clusters
+- Distributed conflict resolution
+
+**Central Brain**
+- Pattern discovery across edge CodeSage instances
+- Three methods: statistical, ML, LLM
+- SQLite-based distributed learning
+- Confidence tracking and effectiveness metrics
+- Global pattern synchronization
 
 **FlakeCache**
 - High-performance Nix binary cache
@@ -161,9 +190,12 @@ Making declarative infrastructure accessible:
 
 **AI/ML Infrastructure:**
 - Multi-agent orchestration
+- Self-improving AI systems (CodeSage + Central Brain)
+- Edge-deployed LLM refinement
 - LLM integration patterns
 - Federated learning
 - Edge inference
+- Pattern discovery and learning
 
 **Enterprise Architecture:**
 - BPMN process orchestration
