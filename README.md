@@ -43,7 +43,20 @@ Building a distributed AI platform combining BPMN, multi-agent systems, and secu
 - pnpm workspaces (JavaScript)
 - Mix (Elixir)
 
-### **FlakeCache** - High-Performance Nix Binary Cache
+### **VectorDrive** - Self-Learning Distributed Vector Database
+Production vector database competing with Pinecone/Qdrant:
+- 61µs latency (30x faster than Pinecone's 2ms)
+- GNN layers make search improve over time (self-learning)
+- PostgreSQL extension with 120+ SQL functions
+- Graph database with Cypher/SPARQL queries
+- Raft consensus + 16 shards + 3x replication
+- 39 attention mechanisms (Flash, Hyperbolic, MoE, Graph)
+- SONA (Self-Optimizing Neural Architecture) runtime adaptation
+- 2-32x memory compression with adaptive tiering
+- Agent economy with bounties and credits
+- Production: 500M concurrent streams, 15 regions, <10ms global latency
+
+**FlakeCache** - High-Performance Nix Binary Cache
 Production infrastructure for Nix binary caching:
 - Elixir backend with S3 storage
 - Rust CLI for cache operations
@@ -73,9 +86,10 @@ Making declarative infrastructure accessible:
 
 **Distributed Systems:**
 - Erlang/OTP supervision trees
+- Raft consensus (VectorDrive clustering)
 - Kubernetes orchestration
 - NATS messaging
-- PostgreSQL (TimescaleDB, pgvector)
+- PostgreSQL (TimescaleDB, pgvector, custom extensions)
 
 **AI/ML:**
 - Multi-agent orchestration (swarm intelligence)
@@ -174,6 +188,16 @@ Making declarative infrastructure accessible:
 - Learned rollback strategies from historical successes
 - pgvector semantic safety analysis
 - NATS-based cross-instance coordination
+
+**VectorDrive**
+- Self-learning distributed vector database (competes with Pinecone/Qdrant)
+- 61µs latency (30x faster than Pinecone)
+- GNN layers for adaptive search improvement
+- PostgreSQL extension: 120+ SQL functions + 64+ graph functions
+- Raft consensus with distributed clustering (16 shards, 3x replication)
+- 39 attention mechanisms (Flash, Hyperbolic, Graph, MoE)
+- SONA: Runtime adaptation with LoRA + EWC++ + ReasoningBank
+- Production-validated: 500M streams, 15 regions, <10ms global latency
 
 **FlakeCache**
 - High-performance Nix binary cache
