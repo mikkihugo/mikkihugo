@@ -56,12 +56,25 @@ Production vector database competing with Pinecone/Qdrant:
 - Agent economy with bounties and credits
 - Production: 500M concurrent streams, 15 regions, <10ms global latency
 
-**FlakeCache** - High-Performance Nix Binary Cache
-Production infrastructure for Nix binary caching:
-- Elixir backend with S3 storage
-- Rust CLI for cache operations
-- FastCDC content-defined chunking
-- Kubernetes + Fly.io deployment
+**FlakeCache + FlakeRunner** - Enterprise Nix Infrastructure
+Production-grade Nix binary cache + self-hosted GitHub Actions runners:
+
+FlakeCache Features:
+- Elixir/Phoenix backend with Tigris (Fly.io) S3 storage
+- FastCDC chunking (Rust NIF) - 30-50% storage savings
+- Multi-region CDN with geographic analytics
+- SSO/SAML 2.0, IP allowlisting, GDPR compliance
+- Stripe billing with metered usage tracking
+- UUIDv7 primary keys (30-50% faster writes)
+- Docker Registry v2 API with cross-language deduplication
+
+FlakeRunner Features (Self-Hosted Actions):
+- Firecracker microVMs: 125ms boot (10x faster than K8s 30-60s)
+- 500 VMs per core density (500x better than K8s 20-50 pods)
+- Network isolated runners (192.168.100.0/24 with NAT)
+- Multi-flavor VMs: ubuntu-latest (3GB), nix (1.5GB)
+- Offline-first cache with local Attic proxy
+- Snapshot restore architecture for instant startup
 
 ### **Enterprise Systems** - Microservices at Scale
 Java Spring Boot ecosystem for telecom/hosting:
@@ -199,11 +212,18 @@ Making declarative infrastructure accessible:
 - SONA: Runtime adaptation with LoRA + EWC++ + ReasoningBank
 - Production-validated: 500M streams, 15 regions, <10ms global latency
 
-**FlakeCache**
-- High-performance Nix binary cache
-- S3-backed storage with intelligent chunking
-- Kubernetes deployment automation
-- CLI tools in Rust
+**FlakeCache + FlakeRunner**
+- Enterprise Nix binary cache with multi-region CDN
+- FastCDC chunking (Rust NIF): 30-50% storage savings
+- SSO/SAML 2.0, IP allowlisting, GDPR compliance
+- Stripe billing with metered usage tracking
+- UUIDv7 primary keys (30-50% faster writes than UUID4)
+- Docker Registry v2 API with cross-language deduplication
+- FlakeRunner: Self-hosted GitHub Actions with Firecracker
+- 125ms VM boot time (10x faster than K8s runners)
+- 500 VMs per core density (500x better than K8s)
+- Network isolated runners with offline-first caching
+- Multi-flavor snapshots: ubuntu-latest, nix
 
 **Language Tools**
 - Glistix: Gleam → Nix compiler fork
