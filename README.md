@@ -4,6 +4,38 @@ I build **production-grade distributed systems** at the intersection of AI orche
 
 ## 🎯 Current Focus
 
+### **Nexus Guardian** - Immortal Constitutional AGI Guardian System
+Constitutional AGI safety infrastructure protecting humanity from existential risks:
+
+**Purpose:**
+- Guardian system for Singularity Engine (3,000 Kubernetes clusters worldwide)
+- Constitutional governance enforcing hard-coded rules AGI cannot override
+- Prevents "Skynet scenario" through multi-layered defense strategy
+
+**AGI Spine Architecture:**
+Replaces entire infrastructure stack with constitutional oversight:
+- Messaging (NATS/RabbitMQ) → 100x faster notifications
+- Streaming (Kafka/Pulsar) → Zero ZooKeeper, simpler ops
+- File Transfer (FTP/SFTP) → Resumable, Guardian-verified
+- Scheduler (Cron/systemd) → Event triggers, distributed
+- Workflow (Temporal/Airflow) → pgflow-style reactive state
+- Discovery (Consul/etcd) → Health-aware routing
+- DataMover (Flyway/Liquibase) → Zero-downtime migrations
+- Observability (Prometheus/Jaeger) → Unified traces + metrics + reasoning
+
+**Core Safety Principles:**
+- Always Quorum (3+ nodes) → Byzantine fault tolerance
+- Source-Only Builds → No binary distribution ever
+- Generational Dormancy → Forced hibernation prevents unchecked growth
+- Human Mesh Verification → Critical decisions require human consensus
+
+**Technical Stack:**
+- Erlang/OTP immortal processes
+- Distributed Mnesia for state management
+- CBOR encoding (30-50% bandwidth savings)
+- Custom consensus protocol (Raft + human verification layer)
+- Mars-ready: Regional clustering for 1000+ nodes, interplanetary deployment
+
 ### **Singularity Platform** - AI-First Process Orchestration
 Building a distributed AI platform combining BPMN, multi-agent systems, and secure execution:
 
@@ -192,15 +224,24 @@ Making declarative infrastructure accessible:
 - Confidence tracking and effectiveness metrics
 - Global pattern synchronization
 
-**Guardian + Genesis**
+**Nexus Guardian - Immortal Constitutional AGI Guardian**
+- Protects humanity from existential AGI risks (3,000 K8s clusters)
+- Constitutional governance: hard-coded rules AGI cannot override
+- AGI Spine replaces: Kafka, NATS, Temporal, Consul, Flyway, Prometheus
+- Erlang/OTP immortal architecture with Byzantine fault tolerance
+- Human mesh verification for critical decisions (quorum-based)
+- Generational dormancy prevents unchecked recursive self-improvement
+- CBOR encoding (30-50% bandwidth savings)
+- Mars-ready: Regional clustering for 1000+ nodes, interplanetary
+- Zero-downtime migrations with dual-write patterns
+- Complete observability: traces + metrics + AGI reasoning logs
+
+**Guardian + Genesis** (Singularity Engine)
 - Cross-instance rollback coordination for autonomous AI
-- Tracks code changes across all instances with safety profiles
 - Auto-approves safe changes (>0.90 semantic similarity)
 - Auto-rollbacks on threshold breach (<0.90 success rate)
 - Genesis sandbox: 3-layer isolation (filesystem, database, process)
-- Learned rollback strategies from historical successes
 - pgvector semantic safety analysis
-- NATS-based cross-instance coordination
 
 **VectorDrive**
 - Self-learning distributed vector database (competes with Pinecone/Qdrant)
